@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState, type MouseEvent } from "react";
 
 const LINKS = [
@@ -47,8 +48,18 @@ export default function Header() {
     <header className="site-header">
       <div className="container">
         <a href="#top" className="brand">
-          <span className="brand-name">Dr. Sameera Kota</span>
-          <span className="brand-role">SURGEON</span>
+          <Image
+            src="/susheela-hospitals-logo.webp"
+            alt="Susheela Hospitals"
+            width={140}
+            height={56}
+            className="brand-logo"
+            priority
+          />
+          <span className="brand-text">
+            <span className="brand-name">Dr. Sameera Kota</span>
+            <span className="brand-role">SURGEON</span>
+          </span>
         </a>
         <nav className={`nav-links${open ? " nav-open" : ""}`}>
           {LINKS.map((link) => (

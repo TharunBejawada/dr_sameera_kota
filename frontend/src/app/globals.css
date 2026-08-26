@@ -101,7 +101,9 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; margin: 0; color: 
   justify-content: space-between;
   height: 76px;
 }
-.brand { display: flex; flex-direction: column; line-height: 1.1; }
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand-logo { height: 36px; width: auto; object-fit: contain; }
+.brand-text { display: flex; flex-direction: column; line-height: 1.1; }
 .brand-name { font-family: var(--serif); font-size: 19px; color: var(--navy-900); }
 .brand-role {
   font-family: var(--mono);
@@ -181,8 +183,15 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; margin: 0; color: 
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: 0 30px 60px -20px rgba(15,30,48,.28);
+  aspect-ratio: 4 / 5;
 }
-.hero-media-frame svg { display: block; width: 100%; height: auto; }
+.hero-media-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
 .hero-badge {
   position: absolute;
   left: -18px;

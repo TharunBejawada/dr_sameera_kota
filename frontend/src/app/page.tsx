@@ -1,7 +1,7 @@
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
-import HeroIllustration from "@/components/HeroIllustration";
 
 const EXPERTISE = [
   {
@@ -83,7 +83,14 @@ export default function Home() {
             </div>
             <div className="hero-media">
               <div className="hero-media-frame">
-                <HeroIllustration />
+                <Image
+                  src="/dr-sameera-kota.jpg"
+                  alt="Dr. Sameera Kota in consultation at Susheela Hospitals"
+                  width={1875}
+                  height={2000}
+                  priority
+                  sizes="(max-width: 960px) 100vw, 480px"
+                />
               </div>
               <div className="hero-badge">
                 <span className="eyebrow">Credentials</span>

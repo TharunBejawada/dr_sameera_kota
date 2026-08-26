@@ -31,9 +31,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          Website content and listed procedures should be finalised against the
-          doctor&rsquo;s verified qualifications, hospital affiliation and currently
-          offered services.
+          Copyright &copy; 2026 . Dr. Sameera Kota, Susheela Hospitals . All Rights Reserved
         </div>
       </div>
     </footer>
