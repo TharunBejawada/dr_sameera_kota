@@ -394,6 +394,8 @@ section[id] { scroll-margin-top: 90px; }
 .contact-field:first-child { padding-top: 0; }
 .contact-field .eyebrow { margin-bottom: 6px; font-size: 10.5px; }
 .contact-field span.value { color: var(--body); font-size: 15px; }
+.contact-field span.value a { color: var(--body); transition: color .2s ease; }
+.contact-field span.value a:hover { color: var(--navy); }
 .contact-card {
   border: 1px solid var(--line);
   border-radius: var(--radius);
