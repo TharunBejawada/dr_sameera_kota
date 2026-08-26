@@ -239,7 +239,7 @@ export default function Home() {
               <Reveal delay={0.05} className="contact-fields">
                 <div className="contact-field">
                   <span className="eyebrow">Clinic / Hospital</span>
-                  <span className="value">[Hospital Name]</span>
+                  <span className="value">Susheela Hospitals</span>
                 </div>
                 <div className="contact-field">
                   <span className="eyebrow">Location</span>
@@ -247,11 +247,15 @@ export default function Home() {
                 </div>
                 <div className="contact-field">
                   <span className="eyebrow">Phone</span>
-                  <span className="value">[Phone Number]</span>
+                  <span className="value">
+                    <a href="tel:+918125205698">+91 81252 05698</a>
+                  </span>
                 </div>
                 <div className="contact-field">
                   <span className="eyebrow">Email</span>
-                  <span className="value">[Email Address]</span>
+                  <span className="value">
+                    <a href="mailto:drsameerakota64@gmail.com">drsameerakota64@gmail.com</a>
+                  </span>
                 </div>
               </Reveal>
               <Reveal delay={0.15}>
@@ -260,7 +264,7 @@ export default function Home() {
                   <p className="role">Consultant General &amp; Laparoscopic Surgeon</p>
                   <div className="btn-row">
                     <a href="#contact" className="btn btn-primary">Book Appointment</a>
-                    <a href="tel:" className="btn btn-outline">Call Now</a>
+                    <a href="tel:+918125205698" className="btn btn-outline">Call Now</a>
                   </div>
                 </div>
               </Reveal>
