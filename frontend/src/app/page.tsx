@@ -250,7 +250,15 @@ export default function Home() {
                 </div>
                 <div className="contact-field">
                   <span className="eyebrow">Location</span>
-                  <span className="value">[Location]</span>
+                  <span className="value">
+                    <a
+                      href="https://maps.app.goo.gl/8aEP2Gqk7aXyk7MXA"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View on Google Maps
+                    </a>
+                  </span>
                 </div>
                 <div className="contact-field">
                   <span className="eyebrow">Phone</span>
