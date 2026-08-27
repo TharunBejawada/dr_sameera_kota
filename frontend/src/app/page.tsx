@@ -252,7 +252,7 @@ export default function Home() {
                   <span className="eyebrow">Location</span>
                   <span className="value">
                     <a
-                      href="https://maps.app.goo.gl/8aEP2Gqk7aXyk7MXA"
+                      href="https://maps.app.goo.gl/kCEQNU6BxG7TM28ZA"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
