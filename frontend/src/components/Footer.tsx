@@ -31,7 +31,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          Copyright &copy; 2026 . Dr. Sameera Kota, Susheela Hospitals . All Rights Reserved
+          Copyright &copy; 2026 . Dr. Sameera Kota . All Rights Reserved
         </div>
       </div>
     </footer>
