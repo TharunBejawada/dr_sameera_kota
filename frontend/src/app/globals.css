@@ -102,7 +102,6 @@ h1, h2, h3, h4 { font-family: var(--serif); font-weight: 500; margin: 0; color: 
   height: 76px;
 }
 .brand { display: flex; align-items: center; gap: 10px; }
-.brand-logo { height: 36px; width: auto; object-fit: contain; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.1; }
 .brand-name { font-family: var(--serif); font-size: 19px; color: var(--navy-900); }
 .brand-role {

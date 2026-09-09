@@ -246,7 +246,7 @@ export default function Home() {
               <Reveal delay={0.05} className="contact-fields">
                 <div className="contact-field">
                   <span className="eyebrow">Clinic / Hospital</span>
-                  <span className="value">Susheela Hospitals</span>
+                  <span className="value">Dr. Sameera Kota</span>
                 </div>
                 <div className="contact-field">
                   <span className="eyebrow">Location</span>
