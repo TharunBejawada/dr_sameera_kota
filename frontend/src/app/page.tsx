@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import FloatingContact from "@/components/FloatingContact";
 import Reveal from "@/components/Reveal";
 
 const EXPERTISE = [
@@ -306,6 +307,7 @@ export default function Home() {
       </main>
 
       <Footer />
+      <FloatingContact />
     </>
   );
 }
