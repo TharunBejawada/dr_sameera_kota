@@ -290,13 +290,13 @@ section[id] { scroll-margin-top: 90px; }
 }
 
 /* ===== Interactive micro-motion ===== */
-.expertise-card, .procedure-item, .experience-top > div, .contact-card {
+.expertise-card, .procedure-item, .experience-top > div, .info-card {
   transition: transform .25s ease, box-shadow .25s ease, background-color .25s ease;
 }
 .expertise-card:hover {
   background: var(--bg-tint);
 }
-.contact-card:hover {
+.info-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 20px 40px -24px rgba(15,30,48,.25);
 }
@@ -443,15 +443,47 @@ section[id] { scroll-margin-top: 90px; }
 .contact-field span.value { color: var(--body); font-size: 15px; }
 .contact-field span.value a { color: var(--body); transition: color .2s ease; }
 .contact-field span.value a:hover { color: var(--navy); }
-.contact-card {
+.contact-side { display: flex; flex-direction: column; gap: 20px; }
+.info-card {
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  padding: 34px;
   background: var(--bg-tint);
+  padding: 28px 30px;
 }
-.contact-card h3 { font-size: 22px; margin-bottom: 6px; }
-.contact-card .role { color: var(--body); font-size: 14px; margin-bottom: 24px; }
-.contact-card .btn-row { display: flex; gap: 12px; flex-wrap: wrap; }
+.info-card-head { display: flex; align-items: center; gap: 9px; margin-bottom: 16px; }
+.info-card-head svg { color: var(--gold-dark); flex: none; }
+.info-card-head .eyebrow { margin-bottom: 0; }
+.info-list li {
+  position: relative;
+  padding-left: 18px;
+  font-size: 14.5px;
+  color: var(--ink);
+}
+.info-list li + li { margin-top: 8px; }
+.info-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gold);
+}
+.location-name { font-family: var(--serif); font-size: 18px; color: var(--navy-900); margin: 0 0 6px; }
+.location-address { color: var(--body); font-size: 13.5px; line-height: 1.6; margin: 0 0 16px; }
+.location-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--gold-dark);
+}
+.location-link:hover { color: var(--navy); }
 
 /* ===== Footer ===== */
 .site-footer { background: var(--bg-tint-2); border-top: 1px solid var(--line); padding: 64px 0 28px; }
