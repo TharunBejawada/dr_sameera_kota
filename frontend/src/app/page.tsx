@@ -261,9 +261,7 @@ export default function Home() {
                     <a href="mailto:drsameerakota64@gmail.com">drsameerakota64@gmail.com</a>
                   </span>
                 </div>
-              </Reveal>
-              <Reveal delay={0.15} className="contact-side">
-                <div className="info-card">
+                <div className="info-card info-card-inline">
                   <div className="info-card-head">
                     <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.8">
                       <circle cx="12" cy="12" r="8.5" />
@@ -275,6 +273,8 @@ export default function Home() {
                     <li>10:00 AM &ndash; 8:00 PM</li>
                   </ul>
                 </div>
+              </Reveal>
+              <Reveal delay={0.15} className="contact-side">
                 <div className="info-card">
                   <div className="info-card-head">
                     <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -299,6 +299,17 @@ export default function Home() {
                       <path d="M7 17 17 7M9 7h8v8" />
                     </svg>
                   </a>
+                </div>
+                <div className="map-embed">
+                  <iframe
+                    src={`https://www.google.com/maps?q=${encodeURIComponent(
+                      "Ground Floor, H.No. 11-12-149, Road No. 3, SRK Puram, Kothapet, L.B. Nagar, Hyderabad, Telangana - 500102"
+                    )}&output=embed`}
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Clinic location map"
+                    allowFullScreen
+                  />
                 </div>
               </Reveal>
             </div>
