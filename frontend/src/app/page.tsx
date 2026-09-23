@@ -302,11 +302,9 @@ export default function Home() {
                 </div>
                 <div className="map-embed">
                   <iframe
-                    src={`https://www.google.com/maps?q=${encodeURIComponent(
-                      "Ground Floor, H.No. 11-12-149, Road No. 3, SRK Puram, Kothapet, L.B. Nagar, Hyderabad, Telangana - 500102"
-                    )}&output=embed`}
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237.99472270939648!2d78.54969840763663!3d17.367795569643764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99b90aa79225%3A0xbf75281984cb373b!2sDr.%20Sameera%20Kota!5e0!3m2!1sen!2sin!4v1790184025994!5m2!1sen!2sin"
                     loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
+                    referrerPolicy="strict-origin-when-cross-origin"
                     title="Clinic location map"
                     allowFullScreen
                   />
