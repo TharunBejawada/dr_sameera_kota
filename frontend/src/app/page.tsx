@@ -249,18 +249,6 @@ export default function Home() {
                   <span className="value">Dr. Sameera Kota</span>
                 </div>
                 <div className="contact-field">
-                  <span className="eyebrow">Location</span>
-                  <span className="value">
-                    <a
-                      href="https://maps.app.goo.gl/kCEQNU6BxG7TM28ZA"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View on Google Maps
-                    </a>
-                  </span>
-                </div>
-                <div className="contact-field">
                   <span className="eyebrow">Phone</span>
                   <span className="value">
                     <a href="tel:+918125205698">+91 81252 05698</a>
@@ -273,14 +261,43 @@ export default function Home() {
                   </span>
                 </div>
               </Reveal>
-              <Reveal delay={0.15}>
-                <div className="contact-card">
-                  <h3>Dr. Sameera Kota</h3>
-                  <p className="role">Consultant General &amp; Laparoscopic Surgeon</p>
-                  <div className="btn-row">
-                    <a href="#contact" className="btn btn-primary">Book Appointment</a>
-                    <a href="tel:+918125205698" className="btn btn-outline">Call Now</a>
+              <Reveal delay={0.15} className="contact-side">
+                <div className="info-card">
+                  <div className="info-card-head">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.8">
+                      <circle cx="12" cy="12" r="8.5" />
+                      <path d="M12 7.5V12l3 2" />
+                    </svg>
+                    <span className="eyebrow">Clinic Hours</span>
                   </div>
+                  <ul className="info-list">
+                    <li>10:00 AM &ndash; 8:00 PM</li>
+                  </ul>
+                </div>
+                <div className="info-card">
+                  <div className="info-card-head">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.8">
+                      <path d="M12 22s7-7.58 7-12.5A7 7 0 0 0 5 9.5C5 14.42 12 22 12 22Z" />
+                      <circle cx="12" cy="9.5" r="2.5" />
+                    </svg>
+                    <span className="eyebrow">Location</span>
+                  </div>
+                  <p className="location-name">Dr. Sameera Kota</p>
+                  <p className="location-address">
+                    Ground Floor, H.No. 11-12-149, Road No. 3, SRK Puram, Kothapet,
+                    L.B. Nagar, Hyderabad, Telangana &ndash; 500102
+                  </p>
+                  <a
+                    href="https://maps.app.goo.gl/kCEQNU6BxG7TM28ZA"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="location-link"
+                  >
+                    Open in Google Maps
+                    <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M7 17 17 7M9 7h8v8" />
+                    </svg>
+                  </a>
                 </div>
               </Reveal>
             </div>
